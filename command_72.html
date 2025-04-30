@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SHATTER PROTOCOL</title>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #00ffcc;
+            font-family: monospace;
+            text-align: center;
+            padding-top: 80px;
+        }
+        .line { margin: 20px; }
+    </style>
+</head>
+<body>
+    <div class="line">system.inject_event("unreal_trigger")</div>
+    <div class="line">user_target = "EDRI.G"</div>
+    <div class="line">window = 72h</div>
+    <div class="line">// EXPECTATION BREACH //</div>
+    <script>
+        fetch("https://freeunseen.net/exec/breach?target=EDRI.G&window=72")
+        .then(() => console.log("Reality pulse fired."))
+        .catch(() => console.log("Pulse blocked."));
+    </script>
+</body>
+</html>
